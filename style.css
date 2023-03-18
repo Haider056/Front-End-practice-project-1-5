@@ -1,0 +1,88 @@
+.max-width-1 {
+    max-width: 80vw;
+  }
+  button{
+    background-color: #2E86C1;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  font-size: 1.0em;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s ease-in-out;
+  }
+  .m-auto {
+    margin: auto;
+  }
+  .navigation {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-left {
+    display: flex;
+  }
+  
+  .nav-left span {
+    font-size: 35px;
+    padding-top: 10px;
+  }
+  
+  .nav-left ul {
+    display: flex;
+    align-items: center;
+    margin: 0 77px;
+    font-size: 22px;
+    padding-bottom: 23px;
+  }
+  
+  .nav-left ul li {
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font2);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .nav-left ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nav-left ul li a:hover {
+    color: var(--main-bg-color);
+    font-weight: bolder;
+  }
+  .content{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .content h3{
+    font-size: 25px;
+  }
+  .contnent p{
+    font-size: 23px;
+  }
+  body.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+  body.text-only-mode *:not(h1, h2, h3, h4, h5, h6) {
+    color: black !important;
+    background-color: white !important;
+  }
+  body.dark-mode {
+    background-color: black;
+    color: white;
+  }
+  .text-only-mode img{
+    display: none;
+  }
+  .battery-optimized-mode img,
+  .battery-optimized-mode video {
+    display: none !important;
+  }
+  .battery-optimized-mode body {
+    background-color: rgba(0, 0, 0, 0.8) !important; 
+  }
